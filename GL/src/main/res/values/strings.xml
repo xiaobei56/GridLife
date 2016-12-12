@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LifeGrid</string>
+    <string name="tv_description">说明</string>
+    <string name="tv_birthday">出生日期:</string>
+</resources>
