@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GL" />
+            <option value="$PROJECT_DIR$/pulseview" />
+            <option value="$PROJECT_DIR$/service_bzb" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GL/GL.iml" filepath="$PROJECT_DIR$/GL/GL.iml" />
       <module fileurl="file://$PROJECT_DIR$/GridLife.iml" filepath="$PROJECT_DIR$/GridLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulseview/pulseview.iml" filepath="$PROJECT_DIR$/pulseview/pulseview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_bzb/service_bzb.iml" filepath="$PROJECT_DIR$/service_bzb/service_bzb.iml" />
     </modules>
   </component>
 </project>

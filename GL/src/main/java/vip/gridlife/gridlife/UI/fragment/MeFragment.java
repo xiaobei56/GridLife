@@ -19,10 +19,7 @@ import java.util.Calendar;
 import vip.gridlife.gridlife.R;
 
 /**
- * Created by Jaeger on 16/8/11.
- * <p>
- * Email: chjie.jaeger@gmail.com
- * GitHub: https://github.com/laobie
+ *
  */
 public class MeFragment extends Fragment implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener{
     private TextView showDate;

@@ -11,14 +11,12 @@ import vip.gridlife.gridlife.R;
 import vip.gridlife.gridlife.utils.ToastTools;
 
 /**
- * Company: SyberOS BeiJing
- * Project: top.xiaobei89.lifegrid.adapter
- * Created by 秘振博 on 2016/11/21.
+ * create by beizhenbo
  */
-public class TestRecyclerAdapter extends RecyclerView.Adapter<TestRecyclerAdapter.ViewHolder>{
+public class GridViewRecyclerAdapter extends RecyclerView.Adapter<GridViewRecyclerAdapter.ViewHolder>{
     private LayoutInflater mInflater;
     private String[] mTitles=null;
-    public TestRecyclerAdapter(Context context){
+    public GridViewRecyclerAdapter(Context context){
         this.mInflater=LayoutInflater.from(context);
         this.mTitles=new String[522];
         for (int i=0;i<520;i++){

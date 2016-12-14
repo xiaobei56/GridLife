@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import vip.gridlife.gridlife.R;
-import vip.gridlife.gridlife.adapter.TestRecyclerAdapter;
+import vip.gridlife.gridlife.adapter.GridViewRecyclerAdapter;
 
 /**
  * Created by Jaeger on 16/8/11.
@@ -30,7 +30,7 @@ public class GridFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v=inflater.inflate(R.layout.fragement_communicate, container, false);
+        View v=inflater.inflate(R.layout.fragement_grid, container, false);
         Context context=getActivity().getApplicationContext();
         //开始设置RecyclerView
         mRecyclerView= (RecyclerView) v.findViewById(R.id.rv_grid);
@@ -43,7 +43,7 @@ public class GridFragment extends Fragment {
         //给RecyclerView设置布局管理器
         mRecyclerView.setLayoutManager(mLayoutManager);
         //创建适配器，并且设置
-        mAdapter=new TestRecyclerAdapter(getActivity().getApplicationContext());
+        mAdapter=new GridViewRecyclerAdapter(getActivity().getApplicationContext());
         mRecyclerView.setAdapter(mAdapter);
 
         return v;
