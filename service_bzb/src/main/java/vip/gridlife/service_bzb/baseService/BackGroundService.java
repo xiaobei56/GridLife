@@ -2,15 +2,23 @@ package vip.gridlife.service_bzb.baseService;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.Handler;
 import android.os.IBinder;
 
 import com.orhanobut.logger.Logger;
 
 public class BackGroundService extends Service {
-    private final static String TAG="BackGroundService";
-    public BackGroundService() {
+    private final static String TAG = "BackGroundService";
+    private Handler handler = new Handler();
 
-    }
+    private Runnable task = new Runnable() {
+        public void run() {
+            // TODOAuto-generated method stub
+            handler.postDelayed(this, 3 * 1000);//设置延迟时间，此处是5秒
+            //需要执行的代码
+            Logger.t(TAG).e("doSomething");
+        }
+    };
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -28,15 +36,10 @@ public class BackGroundService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Logger.t(TAG).i("onStartCommand()");
-        new Thread(){
+        new Thread() {
             @Override
             public void run() {
-                try {
-                    Logger.t(TAG).i("doSomething");
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                handler.postDelayed(task, 10000);
             }
         }.start();
         return super.onStartCommand(intent, flags, startId);

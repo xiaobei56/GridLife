@@ -16,10 +16,8 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".baseService.BackGroundService"
-            android:enabled="true"
-            android:exported="true"></service>
+        <service android:name=".baseService.BackGroundService" />
+        <service android:name=".baseService_1.BackGroundService_1" />
 
     </application>
 

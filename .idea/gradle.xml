@@ -9,8 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GL" />
+            <option value="$PROJECT_DIR$/a_message" />
+            <option value="$PROJECT_DIR$/bzbplay" />
+            <option value="$PROJECT_DIR$/letvplayer" />
+            <option value="$PROJECT_DIR$/myview" />
             <option value="$PROJECT_DIR$/pulseview" />
             <option value="$PROJECT_DIR$/service_bzb" />
+            <option value="$PROJECT_DIR$/testwebview" />
+            <option value="$PROJECT_DIR$/touchtime" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

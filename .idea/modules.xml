@@ -4,8 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GL/GL.iml" filepath="$PROJECT_DIR$/GL/GL.iml" />
       <module fileurl="file://$PROJECT_DIR$/GridLife.iml" filepath="$PROJECT_DIR$/GridLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_message/a_message.iml" filepath="$PROJECT_DIR$/a_message/a_message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bzbplay/bzbplay.iml" filepath="$PROJECT_DIR$/bzbplay/bzbplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letvplayer/letvplayer.iml" filepath="$PROJECT_DIR$/letvplayer/letvplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview/myview.iml" filepath="$PROJECT_DIR$/myview/myview.iml" />
       <module fileurl="file://$PROJECT_DIR$/pulseview/pulseview.iml" filepath="$PROJECT_DIR$/pulseview/pulseview.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_bzb/service_bzb.iml" filepath="$PROJECT_DIR$/service_bzb/service_bzb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testwebview/testwebview.iml" filepath="$PROJECT_DIR$/testwebview/testwebview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchtime/touchtime.iml" filepath="$PROJECT_DIR$/touchtime/touchtime.iml" />
     </modules>
   </component>
 </project>

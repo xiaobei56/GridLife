@@ -1,1 +1,1 @@
-include ':GL', ':pulseview', ':service_bzb'
+include ':GL', ':pulseview', ':service_bzb', ':touchtime', ':testwebview', ':myview', ':a_message', ':bzbplay', ':letvplayer'
